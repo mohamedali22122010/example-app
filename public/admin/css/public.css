@@ -1,0 +1,79 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/COCON_NEXT_ARABIC_L.OTF);
+}
+
+body {
+    font-family: 'myFirstFont', 'WYekan', 'Helvetica Neue', Helvetica, Atahoma;
+    font-size: medium;
+    font-weight: 400;
+
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'myFirstFont', 'WYekan', 'Helvetica Neue', Helvetica, Atahoma;
+}
+
+p {
+    font-size: large;
+}
+
+.login-page, .register-page {
+    background: #551d76;
+}
+
+.login-logo {
+    color: #fff;
+}
+
+.login-box-body, .register-box-body {
+    background: #fff;
+    padding: 20px;
+    border-top: 0;
+    color: #666;
+}
+
+.login-logo {
+    background-image: url("/images/logo.png");
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-box, .register-box {
+    min-width: 450px !important;
+    margin: 3% auto;
+}
+.login-logo, .register-logo {
+    margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+    .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+        float: right;
+    }
+    .login-box, .register-box {
+        width: 100%;
+        min-width: initial !important;
+    }
+}
+
+.icheckbox_square-blue, .iradio_square-blue
+{
+    float: right;
+    margin-left: 10px;
+}
+.margin-t-40
+{
+margin-top: 40px;
+}
+
+.form-horizontal .form-group
+{
+    direction: rtl;
+}
+.col-btn-login
+{
+    width:40%;
+}
